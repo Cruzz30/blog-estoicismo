@@ -58,3 +58,51 @@ body {
   font-size: 1.8rem;
   text-align: center;
 }
+.main--container {
+  width: 1200px;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 3px;
+  border-radius: 11px;
+  background: linear-gradient(145deg, #ffffff, #e6e6e6);
+  box-shadow: 8px 8px 16px #e6e6e6, -8px 10px 16px #ffffff;
+}
+.main--container div {
+  margin-bottom: 20px;
+  border-radius: 23px;
+  background: #ffffff;
+  box-shadow: 13px 13px 26px #e0e0e0, -10px 10px 26px #ffffff;
+  transition: transform 0.5s;
+}
+.main__container--seneca:hover {
+  transform: scale(1.1);
+}
+.main__container--seneca:hover p {
+  color: black;
+}
+.main__container--aurelio:hover {
+  transform: scale(1.1);
+}
+.main__container--aurelio:hover p {
+  color: black;
+}
+.main__container--greene:hover {
+  transform: scale(1.1);
+}
+.main__container--greene:hover p {
+  color: black;
+}
+h2 {
+  font-size: 2rem;
+  padding-left: 20px;
+  font-weight: bold;
+}
+.main--container p {
+  font-size: 1.4rem;
+  color: #444444;
+  padding: 5px;
+  transition: color 0.5s;
+}
+.main--container p:hover {
+  color: #da0037;
+}
