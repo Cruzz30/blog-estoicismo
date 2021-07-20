@@ -6,10 +6,14 @@
 body {
   font-size: 62.5%;
 }
+.header__container {
+  display: flex;
+  justify-content: space-around;
+}
 .header__container--title {
   width: 800px;
   height: 80px;
-  margin: 0 auto;
+  vertical-align: auto;
   background-image: linear-gradient(
     to bottom,
     #444444,
@@ -22,8 +26,21 @@ body {
 .header--title {
   font-size: 3rem;
   text-align: center;
-  padding: 10px 0;
+  line-height: 80px;
 }
+.header__logo--rigth {
+  width: 100px;
+  height: 80px;
+  display: inline-block;
+  right: 50px;
+}
+.header__logo--left {
+  width: 100px;
+  height: 80px;
+  display: inline-block;
+  left: 50px;
+}
+
 .header__container--subtitle {
   width: 100%;
   height: 40px;
