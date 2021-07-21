@@ -68,7 +68,7 @@ html {
   box-shadow: 8px 8px 16px #e6e6e6, -8px 10px 16px #ffffff;
 }
 .main--container div {
-  margin: 5px 0 20px 0;
+  margin: 5px 0 35px 0;
   border-radius: 23px;
   background: #ffffff;
   box-shadow: 13px 13px 26px #e0e0e0, -10px 10px 26px #ffffff;
@@ -90,6 +90,12 @@ html {
   transform: scale(1.1);
 }
 .main__container--greene:hover p {
+  color: black;
+}
+.main__container--nicholas:hover {
+  transform: scale(1.1);
+}
+.main__container--nicholas:hover p {
   color: black;
 }
 h2 {
