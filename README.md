@@ -1,2 +1,2 @@
-# blogEstoicismo
-Este es un blog con frases estoicas
+# blog Estoicismo
+Blog de frases estoicas de filosofos como Marco Aurelio, Séneca, Robert Greene
