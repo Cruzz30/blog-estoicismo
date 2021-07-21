@@ -68,7 +68,7 @@ body {
   box-shadow: 8px 8px 16px #e6e6e6, -8px 10px 16px #ffffff;
 }
 .main--container div {
-  margin-bottom: 20px;
+  margin: 5px 0 20px 0;
   border-radius: 23px;
   background: #ffffff;
   box-shadow: 13px 13px 26px #e0e0e0, -10px 10px 26px #ffffff;
