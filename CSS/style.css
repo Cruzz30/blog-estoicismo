@@ -61,7 +61,7 @@ html {
 }
 .main--container {
   width: 1000px;
-  height: 100vh;
+  height: auto;
   margin: 0 auto;
   padding: 3px;
   border-radius: 11px;
